@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  user-select: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 99vh;
+}
+.love {
+  display: flex;
+  width: 170px;
+  justify-content: space-evenly;
+  /* box-sizing: border-box; */
+  align-items: center;
+  line-height: 40px;
+  position: absolute;
+  bottom: 0px;
+  cursor: pointer;
+}
+.love:hover .material-icons {
+  color: red;
+}

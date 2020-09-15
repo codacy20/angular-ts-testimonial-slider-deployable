@@ -1,0 +1,14 @@
+<div class="card-container">
+  <div id="left" class="icons" (click)="switch(0)">
+    <span class="material-icons">
+      keyboard_arrow_left
+    </span>
+  </div>
+  <app-image-panel [current]="current"></app-image-panel>
+  <app-testimony [current]="current"></app-testimony>
+  <div id="right" class="icons" (click)="switch(1)">
+    <span class="material-icons">
+      keyboard_arrow_right
+    </span>
+  </div>
+</div>
